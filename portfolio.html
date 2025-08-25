@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Font Awesome (Free Icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mary Oluwayemisi Folorunsho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>My Portfolio</h1>
+    <p>A showcase of my works, projects, and contributions.</p>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <div class="portfolio-item">
+      <img src="images/teaching.jpg" alt="Teaching Project">
+      <h3>Teaching & Education</h3>
+      <p>7+ years of experience teaching Mathematics and Physics. Currently building <strong>TeenMath</strong>, a YouTube channel that helps teenagers learn mathematics in simple and engaging ways.</p>
+      <a href="https://youtube.com/@TeenMath" target="_blank" class="btn">View Project</a>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="images/design.jpg" alt="Design Project">
+      <h3>Graphic Design</h3>
+      <p>Creative works and design practice projects done while learning graphic design. Includes posters, banners, and educational visuals.</p>
+      <a href="#" class="btn">View Designs</a>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="images/web.jpg" alt="Web Development Project">
+      <h3>Web Development</h3>
+      <p>Projects from my web development journey, including my professional website and educational web tools.</p>
+      <a href="#" class="btn">View Website</a>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="images/data.jpg" alt="Data Analysis Project">
+      <h3>Data Analysis</h3>
+      <p>Exploring data analysis with Excel and Python. Projects include analyzing educational datasets and visualizing student performance trends.</p>
+      <a href="#" class="btn">View Analysis</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Mary Oluwayemisi Folorunsho. All Rights Reserved.</p>
+    
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://wa.me/2349130526970" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/MARYFOLORUNSHO" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.tiktok.com/@YOURUSERNAME" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/YOURUSERNAME" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</footer>
+
+<!-- JavaScript for Back to Top -->
+<script>
+  let mybutton = document.getElementById("backToTopBtn");
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+<html lang="en">
+<head>
+<!-- Font Awesome (Free Icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Mary Oluwayemisi Folorunsho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Get In Touch</h1>
+    <p>Feel free to reach out for collaborations, opportunities, or inquiries.</p>
+    
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Email:</strong> folorunshomary12@gmail.com</p>
+        <p><strong>Phone:</strong> +234 9130526970, +2347052612791 </p>
+        <p><strong>Location:</strong> Nigeria</p>
+        
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+		  <a href="#">WhatsAapp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Mary Oluwayemisi Folorunsho. All Rights Reserved.</p>
+    
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://wa.me/2349130526970" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/MARYFOLORUNSHO" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.tiktok.com/@YOURUSERNAME" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/YOURUSERNAME" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</footer>
+
+<!-- JavaScript for Back to Top -->
+<script>
+  let mybutton = document.getElementById("backToTopBtn");
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
